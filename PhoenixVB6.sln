@@ -7,13 +7,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixVB6.ProjectModel", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixVB6.CodeModel", "PhoenixVB6.CodeModel\PhoenixVB6.CodeModel.csproj", "{B24788A5-AF29-4CF3-888F-EA4A0898AEF0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69F0B1EC-2CF0-4887-93CB-9B46264D165A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Solution Items", "01 Solution Items", "{69F0B1EC-2CF0-4887-93CB-9B46264D165A}"
 	ProjectSection(SolutionItems) = preProject
 		COPYRIGHT.txt = COPYRIGHT.txt
 		LICENSE.txt = LICENSE.txt
 		PhoenixVB6.ruleset = PhoenixVB6.ruleset
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Contracts", "02 Contracts", "{715CE7CB-3CE5-4505-A1D7-FE1144C54584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Exports", "03 Exports", "{27920727-D61D-404B-939A-C509F61D8723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixVB6.ProjectModel.Exports", "PhoenixVB6.ProjectModel.Exports\PhoenixVB6.ProjectModel.Exports.csproj", "{B308186B-D356-4A00-97AB-244F75CE684E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixVB6", "PhoenixVB6\PhoenixVB6.csproj", "{A3BBAA57-C36C-404E-9A83-CBA77FB9037A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixVB6.Exports", "PhoenixVB6.Exports\PhoenixVB6.Exports.csproj", "{C01557B0-BF06-4FD0-BE4F-66FD9C9DD4F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,8 +39,27 @@ Global
 		{B24788A5-AF29-4CF3-888F-EA4A0898AEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24788A5-AF29-4CF3-888F-EA4A0898AEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24788A5-AF29-4CF3-888F-EA4A0898AEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B308186B-D356-4A00-97AB-244F75CE684E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B308186B-D356-4A00-97AB-244F75CE684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B308186B-D356-4A00-97AB-244F75CE684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B308186B-D356-4A00-97AB-244F75CE684E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BBAA57-C36C-404E-9A83-CBA77FB9037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BBAA57-C36C-404E-9A83-CBA77FB9037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BBAA57-C36C-404E-9A83-CBA77FB9037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BBAA57-C36C-404E-9A83-CBA77FB9037A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01557B0-BF06-4FD0-BE4F-66FD9C9DD4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01557B0-BF06-4FD0-BE4F-66FD9C9DD4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01557B0-BF06-4FD0-BE4F-66FD9C9DD4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01557B0-BF06-4FD0-BE4F-66FD9C9DD4F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B09B3F8-E483-4240-8BAA-2E39D38EDABC} = {715CE7CB-3CE5-4505-A1D7-FE1144C54584}
+		{B24788A5-AF29-4CF3-888F-EA4A0898AEF0} = {715CE7CB-3CE5-4505-A1D7-FE1144C54584}
+		{B308186B-D356-4A00-97AB-244F75CE684E} = {27920727-D61D-404B-939A-C509F61D8723}
+		{A3BBAA57-C36C-404E-9A83-CBA77FB9037A} = {715CE7CB-3CE5-4505-A1D7-FE1144C54584}
+		{C01557B0-BF06-4FD0-BE4F-66FD9C9DD4F5} = {27920727-D61D-404B-939A-C509F61D8723}
 	EndGlobalSection
 EndGlobal

@@ -17,20 +17,25 @@
 
 #endregion
 
-using System;
-using System.Reflection;
-using System.Runtime.InteropServices;
+using System.ComponentModel.Composition;
 
-[assembly: AssemblyTitle("PhoenixVB6.CodeModel")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PhoenixVB6.CodeModel")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-[assembly: ComVisible(false)]
-[assembly: Guid("eabb4112-310c-4498-b422-a3b60b3cfdfc")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: CLSCompliant(false)]
+namespace PhoenixVB6.ProjectModel.Exports
+{
+	[Export]
+	public class Project : IProject
+	{
+		#region IProject Members
+
+		public virtual ProjectType Type { get; set; }
+
+		public virtual string Name { get; set; }
+
+		public virtual string Title { get; set; }
+
+		public virtual string Description { get; set; }
+
+		public virtual string BinaryName { get; set; }
+
+		#endregion
+	}
+}
