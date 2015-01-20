@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B09B3F8-E483-4240-8BAA-2E39D38EDABC}</ProjectGuid>
+    <ProjectGuid>{B308186B-D356-4A00-97AB-244F75CE684E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PhoenixVB6.ProjectModel</RootNamespace>
-    <AssemblyName>PhoenixVB6.ProjectModel</AssemblyName>
+    <RootNamespace>PhoenixVB6.ProjectModel.Exports</RootNamespace>
+    <AssemblyName>PhoenixVB6.ProjectModel.Exports</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums.cs" />
-    <Compile Include="IProject.cs" />
-    <Compile Include="IProjectItem.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhoenixVB6.ProjectModel\PhoenixVB6.ProjectModel.csproj">
+      <Project>{0b09b3f8-e483-4240-8baa-2e39d38edabc}</Project>
+      <Name>PhoenixVB6.ProjectModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
