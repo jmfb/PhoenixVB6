@@ -25,11 +25,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("PhoenixVB6.ProjectModel")]
+[assembly: AssemblyTitle("PhoenixVB6.ProjectModel.Exports")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PhoenixVB6.ProjectModel")]
+[assembly: AssemblyProduct("PhoenixVB6.ProjectModel.Exports")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -43,7 +43,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("55f5d366-e7e4-49a5-9f8e-05401e06056c")]
+[assembly: Guid("06cc1a34-253f-4629-8747-afdd5f92f51b")]
 
 // Version information for an assembly consists of the following four values:
 //
